@@ -8,9 +8,18 @@ export class AppHome {
 
     private ngoList                =   [];
 
+    constructor() {
+        console.log('Home :: constructor');
+    }
+
     async componentWillLoad() {
+        console.log('Home :: will load');
         const resp              =   await fetch('/assets/data/ngos.json');
         this.ngoList            =   await resp.json();
+    }
+
+    async componentDidLoad() {
+        console.log('Home :: did load');
     }
 
     render() {

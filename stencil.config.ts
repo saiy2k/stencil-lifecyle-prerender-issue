@@ -9,5 +9,6 @@ export const config: Config = {
   outputTargets: [{
     type: 'www',
     serviceWorker: null
+    baseUrl: 'https://farmers-app-cce97.web.app',
   }],
 };

@@ -6,6 +6,19 @@ import { Component, h } from '@stencil/core';
 })
 export class AppRoot {
 
+    constructor() {
+        console.log('Root :: constructor');
+    }
+
+    async componentWillLoad() {
+        console.log('Root :: will load');
+    }
+
+    async componentDidLoad() {
+        console.log('Root :: did load');
+    }
+
+
   render() {
     return (
       <ion-app>
