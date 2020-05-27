@@ -1,0 +1,17 @@
+[{
+    "name": "Thozhan",
+    "slug": "thozhan",
+    "activities": ["road safety", "anbu illam", "speech workshop"]
+}, {
+    "name": "Lit the Light",
+    "slug": "lit-the-light",
+    "activities": ["scribing", "talent hunt"]
+}, {
+    "name": "Arapport Iyakkam",
+    "slug": "arapport-iyakkam",
+    "activities": ["rti", "political watchdog"]
+}, {
+    "name": "EFI",
+    "slug": "efi",
+    "activities": ["Pond cleanup", "Water body renovation"]
+}]
